@@ -1,5 +1,5 @@
 ---
-title: "Blue"
+title: "Orange"
 images:
   - /images/DSC_2334.jpg
 tags:

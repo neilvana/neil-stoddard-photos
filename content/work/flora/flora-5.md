@@ -1,5 +1,5 @@
 ---
-title: "Pulsatilla Fruit"
+title: "Leaves"
 images:
   - /images/DSC_1356.jpg
 tags:
