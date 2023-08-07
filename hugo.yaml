@@ -1,0 +1,73 @@
+baseURL: "https://neilstoddard.com/"
+languageCode: "en-us"
+title: "Neil Stoddard"
+theme: "eternity"
+googleAnalytics: ""
+
+params:
+  image: /images/banner.png
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle: Photography by Neil Stoddard
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Neil Stoddard # todo: set your full name.
+  dontShowSource: false # please, do not do this :)
+  dontShowLogo: false # If you want to hide the logo, this is what you set to true
+  portfolio:
+    columns:
+      desktop:
+        default: 3
+      mobile:
+        default: 2
+  socials:
+    # todo: add your social accounts.
+    - icon: "far fa-brands fa-instagram fa-lg"
+      url: "https://www.instagram.com/neilstoddard/"
+      landing: true
+    - icon: "far fa-brands fa-github fa-lg"
+      url: "https://github.com/neilvana"
+      landing: true
+    - icon: "far fa-envelope fa-lg"
+      url: "mailto:neil.stoddard@gmail.com"
+      landing: true
+  homepage: "/work"
+  specialPages:
+    - work
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  plausible: "" # todo: set your plausible id.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  disableRadius: true
+  moveIt: false # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: work
+      url: /work/
+      weight: 1
+    - name: fauna
+      url: /tags/fauna/
+      weight: 2
+    - name: flora
+      url: /tags/flora/
+      weight: 3
+    - name: landscapes
+      url: /tags/landscapes/
+      weight: 4
+    - name: other
+      url: /tags/other/
+      weight: 5
+    - name: about
+      url: /about/
+      weight: 6
