@@ -1,9 +1,9 @@
 ---
-title: "Terraces"
+title: "Haystack Rock"
 images:
-  - /images/DSC_2007.jpg
+  - /images/IMG_20180620.jpg
 tags:
 - work
 - landscapes
-weight: 2007
+weight: 7
 ---

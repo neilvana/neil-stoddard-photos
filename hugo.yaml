@@ -56,11 +56,11 @@ menu:
     - name: work
       url: /work/
       weight: 1
-    - name: fauna
-      url: /tags/fauna/
-      weight: 2
     - name: flora
       url: /tags/flora/
+      weight: 2
+    - name: fauna
+      url: /tags/fauna/
       weight: 3
     - name: landscapes
       url: /tags/landscapes/
