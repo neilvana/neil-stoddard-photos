@@ -12,7 +12,10 @@ hideDate: true
 Neil Stoddard is an amatuer photographer living outside Austin, Texas.
 </p>
 <p>
-Shapes, colors, textures, and lines make life more interesting. Eyes tell stories which words cannot.
+Shapes, colors, textures, and lines spin a narrative.
+</p>
+<p>
+Eyes tell stories which words cannot.
 </p>
 <p>
 The world around us is always speaking.
