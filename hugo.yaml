@@ -2,7 +2,7 @@ baseURL: "https://neilstoddard.com/"
 languageCode: "en-us"
 title: "Neil Stoddard"
 theme: "eternity"
-googleAnalytics: ""
+googleAnalytics: "G-6Y51KXLFDM"
 
 params:
   image: /images/banner.png
