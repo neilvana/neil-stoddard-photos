@@ -3,8 +3,9 @@ title: "Cisco"
 images:
   - /images/DSC_1701.jpg
 tags:
-- work
+- all
 - fauna
 weight: 1701
 ---
 
+Look at those eyes!

@@ -3,7 +3,7 @@ title: "Swallowtail with dew drops"
 images:
   - /images/100_4044.JPG
 tags:
-- work
+- all
 - fauna
 weight: 4
 ---

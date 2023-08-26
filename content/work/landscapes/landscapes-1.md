@@ -3,7 +3,7 @@ title: "Blue"
 images:
   - /images/DSC_2346.jpg
 tags:
-- work
+- all
 - landscapes
 weight: 2346
 ---

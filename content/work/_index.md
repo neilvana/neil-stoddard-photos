@@ -1,5 +1,5 @@
 ---
-title: work
-url : work
+title: all
+url : all
 ---
 

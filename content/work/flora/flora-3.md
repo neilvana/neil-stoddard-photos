@@ -3,7 +3,7 @@ title: "Peony"
 images:
   - /images/DSC_1689.jpg
 tags:
-- work
+- all
 - flora
 weight: 1689
 ---

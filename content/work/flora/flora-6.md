@@ -3,7 +3,7 @@ title: "Pear Blossoms"
 images:
   - /images/IMG_1602.jpg
 tags:
-- work
+- all
 - flora
 weight: 6
 ---

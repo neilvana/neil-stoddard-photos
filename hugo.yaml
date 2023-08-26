@@ -29,9 +29,9 @@ params:
     - icon: "far fa-envelope fa-lg"
       url: "mailto:neil.stoddard@gmail.com"
       landing: true
-  homepage: "/work"
+  homepage: "/all"
   specialPages:
-    - work
+    - all
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: "" # todo: set your plausible id.
   disableWelcomePageBackground: false # disables the background image on the homepage
@@ -53,8 +53,8 @@ permalinks:
 
 menu:
   main:
-    - name: work
-      url: /work/
+    - name: all
+      url: /all/
       weight: 1
     - name: flora
       url: /tags/flora/

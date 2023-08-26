@@ -3,7 +3,7 @@ title: "Magnolia"
 images:
   - /images/DSC_0418.jpg
 tags:
-- work
+- all
 - flora
 weight: 418
 ---

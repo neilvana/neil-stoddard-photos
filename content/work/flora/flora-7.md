@@ -3,7 +3,7 @@ title: "Dimorphotheca"
 images:
   - /images/100_1923.JPG
 tags:
-- work
+- all
 - flora
 weight: 2
 ---

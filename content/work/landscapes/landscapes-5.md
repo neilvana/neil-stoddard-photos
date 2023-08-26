@@ -3,7 +3,9 @@ title: "Sunset Palms"
 images:
   - /images/PXL_20220423.jpg
 tags:
-- work
+- all
 - landscapes
 weight: 8
 ---
+
+Sitting on the rocky leeward side of Oahu island in Hawaii we watched the sun tuck below the palms.
