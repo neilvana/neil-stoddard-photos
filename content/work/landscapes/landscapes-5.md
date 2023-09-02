@@ -1,7 +1,7 @@
 ---
 title: "Sunset Palms"
 images:
-  - /images/PXL_20220423.jpg
+  - /images/PXL_20220423_052015482.jpg
 tags:
 - all
 - landscapes
