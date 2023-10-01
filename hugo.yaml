@@ -79,4 +79,4 @@ menu:
       weight: 7
     - name: about
       url: /about/
-      weight: 7
+      weight: 8
