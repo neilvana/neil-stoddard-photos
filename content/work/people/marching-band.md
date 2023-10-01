@@ -1,5 +1,5 @@
 ---
-title: "Marching Band"
+title: "Floating in a sea of brass"
 images:
   - /images/DSC_4549.jpg
 tags:
@@ -8,4 +8,4 @@ tags:
 weight: 4549
 ---
 
-Floating in a sea of brass.
+Go Rouse Band!
