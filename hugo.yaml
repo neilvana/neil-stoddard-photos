@@ -16,10 +16,10 @@ params:
     columns:
       desktop:
         default: 2
-        archive: 6
+        all: 6
       mobile:
         default: 1
-        archive: 3
+        all: 3
   socials:
     # todo: add your social accounts.
     - icon: "far fa-brands fa-instagram fa-lg"
@@ -31,9 +31,9 @@ params:
     - icon: "far fa-envelope fa-lg"
       url: "mailto:neil.stoddard@gmail.com"
       landing: true
-  homepage: "/work"
+  homepage: "/highlights/"
   specialPages:
-    - work
+    - highlights
     - archive
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: "" # todo: set your plausible id.
@@ -56,8 +56,8 @@ permalinks:
 
 menu:
   main:
-    - name: work
-      url: /work/
+    - name: highlights
+      url: /highlights/
       weight: 1
     - name: flora
       url: /tags/flora/
@@ -74,8 +74,8 @@ menu:
     - name: object
       url: /tags/object/
       weight: 6
-    - name: archive
-      url: /tags/archive/
+    - name: all
+      url: /tags/all/
       weight: 7
     - name: about
       url: /about/
