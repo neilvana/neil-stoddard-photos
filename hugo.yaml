@@ -15,7 +15,7 @@ params:
   portfolio:
     columns:
       desktop:
-        default: 2
+        default: 3
         all: 6
       mobile:
         default: 1
@@ -31,10 +31,7 @@ params:
     - icon: "far fa-envelope fa-lg"
       url: "mailto:neil.stoddard@gmail.com"
       landing: true
-  homepage: "/highlights/"
-  specialPages:
-    - highlights
-    - archive
+  homepage: "/tags/highlights/"
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: "" # todo: set your plausible id.
   disableWelcomePageBackground: false # disables the background image on the homepage
@@ -52,12 +49,12 @@ taxonomies:
   tag: tags
 
 permalinks:
-  work: ":filename/"
+  work: ":contentbasename/"
 
 menu:
   main:
     - name: highlights
-      url: /highlights/
+      url: /tags/highlights/
       weight: 1
     - name: flora
       url: /tags/flora/
