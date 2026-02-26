@@ -5,7 +5,7 @@ images:
 tags:
 - all
 - place
-weight: 2602132
+weight: 2026021302
 ---
 
 A black and white, low-angle shot of the Drury Plaza Hotel, highlighting its iconic sign and striking Art Deco architecture against a cloudy sky.

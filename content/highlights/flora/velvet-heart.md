@@ -5,7 +5,7 @@ images:
 tags:
 - all
 - flora
-weight: 2512282
+weight: 2025122802
 ---
 
 A macro photograph of a red rose, capturing the soft, velvety texture of its petals as they spiral toward the center.
