@@ -1,0 +1,4 @@
+{{ partial "header.html" . }}
+<script>window.location.replace("{{ .Site.Params.Homepage | relURL }}");</script>
+<noscript><meta http-equiv="refresh" content="0; URL={{ .Site.Params.Homepage | relURL }}" /></noscript>
+{{ partial "footer.html" . }}

@@ -5,13 +5,12 @@ theme: "eternity"
 googleAnalytics: "G-6Y51KXLFDM"
 
 params:
-  image: /images/banner.png
-  logo: logo.png # todo: add your custom logo to static/
+  logo: logo.png
   subtitle: Photography by Neil Stoddard
-  copyright: All rights reserved. # todo: set your copyright type.
-  author: Neil Stoddard # todo: set your full name.
-  dontShowSource: false # please, do not do this :)
-  dontShowLogo: false # If you want to hide the logo, this is what you set to true
+  copyright: All rights reserved.
+  author: Neil Stoddard
+  dontShowSource: false
+  dontShowLogo: false
   portfolio:
     columns:
       desktop:
@@ -32,12 +31,9 @@ params:
       url: "mailto:neil.stoddard@gmail.com"
       landing: true
   homepage: "/tags/highlights/"
-  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
-  plausible: "" # todo: set your plausible id.
-  disableWelcomePageBackground: false # disables the background image on the homepage
+  bypassWelcomePage: true
+  disableWelcomePageBackground: false
   disableRadius: true
-  moveIt: false # Moves Title and Meta info down, only visible when scroll.
-  disableAlwaysResize: false
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -47,9 +43,6 @@ markup:
 
 taxonomies:
   tag: tags
-
-permalinks:
-  work: ":contentbasename/"
 
 menu:
   main:
