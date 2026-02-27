@@ -13,15 +13,66 @@
     margin-bottom: 0.15em;
 }
 
-/* ── Nav: tighten top padding ── */
+/* ── Nav: tighten top padding, transparent background ── */
 nav.navbar {
     padding-top: 0.5em;
+    overflow: visible;
+    background-color: transparent !important;
+}
+
+/* ── Ambient glow: large soft radial fixed to top-center,
+   slightly off-centre for implied depth.                  */
+html[data-glow="E"],
+body[data-glow="E"] {
+    background-image: radial-gradient(
+        ellipse 62% 44% at 48% 0%,
+        rgba(60,  120, 160, 0.22)  0%,
+        rgba(40,   85, 130, 0.10) 40%,
+        transparent                70%
+    );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /* ── Nav separators: dimmed ── */
 .nav-sep {
     color: var(--grey);
     opacity: 0.45;
+}
+
+/* ── Nav links: gradient underline that fades in ──
+   Replaces the theme's solid 5px border-bottom.
+   The underline is a teal radial gradient, centred,
+   fading to transparent at both ends — mirroring the
+   ambient glow above. Width expands from 0 on hover/active. */
+.menu a,
+nav .menu a {
+    border-bottom: none !important;
+    background-image: radial-gradient(
+        ellipse at center,
+        var(--main-light) 0%,
+        var(--main)       35%,
+        transparent       100%
+    );
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 0% 1px;
+    padding-bottom: 4px;
+    transition: background-size 0.35s ease, color 0.2s ease;
+}
+
+.menu a:hover,
+nav .menu a:hover {
+    border-bottom: none !important;
+    background-size: 100% 1px;
+    color: var(--white);
+}
+
+.menu a.active,
+nav .menu a.active {
+    border-bottom: none !important;
+    background-size: 100% 1px;
+    color: var(--white);
 }
 
 /* ── Gallery: reduce top section padding ── */

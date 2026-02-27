@@ -14,6 +14,7 @@
 	{{ partial "meta" . }}
 
 	<style>html { background-color: #000; }</style>
+	<script>document.documentElement.setAttribute('data-glow','E');</script>
 	<link rel="preconnect" href="https://www.googletagmanager.com">
 	<link rel="preload" href="{{ "fonts/YsabeauSC-VariableFont_wght.woff2" | absURL }}" as="font" type="font/woff2" crossorigin="anonymous">
 
@@ -21,6 +22,7 @@
 	<link rel="stylesheet" href={{ "css/main.css" | absURL }}>
 	<link rel="stylesheet" href={{ "css/fonts.css" | absURL }}>
 	<script defer src={{ "js/main.js" | absURL }}></script>
+	<script defer src={{ "js/glow.js" | absURL }}></script>
 	{{ partial "style.html" . }}
 	<script src="https://kit.fontawesome.com/bf18cd1a66.js" crossorigin="anonymous"></script>
 	{{ partial "fonts.html" . }}
